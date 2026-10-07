@@ -4,7 +4,7 @@ Homebrew tap for QuantifAI tools. One formula: [`quantifai-sync`](https://github
 the telemetry sync agent.
 
 > **Status: paused.** QuantifAI stopped active development in 2026. The formula points at a
-> real, tagged `v0.1.0` release and installs, but nothing here is maintained.
+> real, tagged `v0.3.0` release and installs, but nothing here is maintained.
 
 ## Install
 

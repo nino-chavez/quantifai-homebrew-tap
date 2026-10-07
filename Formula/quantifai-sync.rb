@@ -1,26 +1,26 @@
 class QuantifaiSync < Formula
   desc "Telemetry sync agent for Quantifai — streams AI tool usage data to your dashboard"
   homepage "https://quantifai.app"
-  version "0.1.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.1.0/quantifai-sync-darwin-arm64.tar.gz"
-      sha256 "951a7ea01c63154170fdbb42dcd806ec9436c2fa43e2ac4fcfc88ec15c1b2301"
+      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.3.0/quantifai-sync-darwin-arm64.tar.gz"
+      sha256 "6e56b6f45000368dbac6101e7ac3b3de6fe256cea00a3045aa11ba4a938a27fd"
     else
-      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.1.0/quantifai-sync-darwin-amd64.tar.gz"
-      sha256 "41ad6144b5df4ca7cac2bfa74f32a580813532c036d8219f666180095075cb6e"
+      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.3.0/quantifai-sync-darwin-amd64.tar.gz"
+      sha256 "25ab4c095c6596e32e7b5d6df3ddc35d94b7ec2778e76f4566360861c1ed40ff"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.1.0/quantifai-sync-linux-arm64.tar.gz"
-      sha256 "0248fd6a6df5ba0ec28257a2ed985941f519211a8f33cb9076779fd60dac60ee"
+      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.3.0/quantifai-sync-linux-arm64.tar.gz"
+      sha256 "9e86eb725bf51b686d7c6c424317f2ef421d599149674f096b01253fdc5a929d"
     else
-      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.1.0/quantifai-sync-linux-amd64.tar.gz"
-      sha256 "d936c6c3589cb71d5ccf87a63008c630df418f9ed2e01b925b24d9c6aec8ce0e"
+      url "https://github.com/nino-chavez/quantifai-sync/releases/download/v0.3.0/quantifai-sync-linux-amd64.tar.gz"
+      sha256 "ba2e8960c9faf9a60463fc24d1516c03ca575a21479d9e93a8d3812857fdcc5b"
     end
   end
 
